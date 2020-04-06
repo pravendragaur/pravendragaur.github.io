@@ -1,0 +1,191 @@
+body{
+    background-color:#000c18;
+    
+ }
+ /* Simple dashboard grid CSS */
+ 
+ /* Assign grid instructions to our parent grid container */
+ .grid-container {
+   display: grid;
+     grid-template-columns: 2.8em 1fr;
+   grid-template-rows: 30px 1fr 10px;
+ 
+   grid-template-areas:
+     "sidenav header"
+     "sidenav main"
+     "sidenav footer";
+   height: 100%;
+ }
+ 
+ /* Give every child element its grid name */
+ .header {
+   grid-area: header;
+   background-color: #000c18;
+ }
+ 
+ .sidenav {
+ 
+   grid-area: sidenav;
+   background-color: #000c18;
+ }
+ 
+ .main {
+   grid-area: main;
+   background-color: #000c18;
+ }
+ 
+ .footer {
+   grid-area: footer;
+   background-color: #000c18;
+ }
+ 
+ /* header items */
+ 
+ p.hdr {
+     width:auto;
+     margin:auto;
+     float:right;
+     color  : white;
+     display :flex;
+     padding :5px;
+    
+ }
+ 
+ /* Nav menue   */
+ 
+ .s-sidebar__nav {
+     position: fixed;
+     top: 0;
+     left: 0em;
+     overflow: hidden;
+     transition: all .3s ease-in;
+     width: 2.8em;
+     height: 100%;
+     background: rgb(24,27,46);
+     color: rgb(255, 255, 255);
+  } 
+ 
+ .s-sidebar__nav ul {
+     
+     position: absolute;
+     top: 2em;
+     left: 0;
+     margin: 0;
+     padding: 0;
+     width: 10em;
+  }
+  
+  .s-sidebar__nav-link {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     height: 3em;
+  }
+  
+  .s-sidebar__nav-link i {
+      color:white;
+  }
+  
+  .s-sidebar__nav-link em {
+     
+     color:white;
+     position: absolute;
+     top: 50%;
+     left: 3em;
+     transform: translateY(-50%);
+  }
+ 
+ .s-sidebar__nav-link:hover {
+     
+     background: rgb(157,25,105);
+  }
+  
+   .s-sidebar__nav-link > i {
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: inline-block;
+     width: 3em;
+     height: 3em;
+  }
+  .s-sidebar__nav-link > i::before {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  }
+ 
+ /* footer items */
+ 
+ .ftr {
+     width:auto;
+     margin:auto;
+     float:right;
+     color  : white;
+     display inline-block;
+     padding :5px;
+    
+ }
+ 
+ #particles-js {
+     height : 100%;
+     background-color: #000c18;
+     color :white;
+     float : center;
+ }
+ 
+ 
+ .card {
+     
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width: 50%;
+     border-radius: 5px;
+     background-color: white;
+     position: absolute;
+     top: 50%;
+     left: 55%;
+     transform: translate(-50%, -50%);
+     text-align:center;
+     opacity:0.8;
+     padding-bottom: 20px;
+ }
+ 
+ .card:hover {
+     box-shadow: 0 80px 160px 0 rgba(0,0,0,0.2)
+ }
+ 
+ img {
+     
+     border-radius: 50%;
+ }
+ .container {
+ padding: 2px 16px;
+ 
+ }
+ 
+ .card .btn {
+     background-color: #1f88f8;
+     padding : 10px;
+     color : white;
+     width: 100px;
+     border-radius:5px;
+ }
+ 
+ .card .btn:hover {
+ background-color: black;
+ 
+ }
+ /* Mobile CSS */
+ 
+  @media (min-width: 42em) {
+  
+     .grid-container {
+                  grid-template-columns: 10em 1fr;		
+     }
+      .s-sidebar__nav { 
+          width: 10em;
+          }
+          
+      .card{ width:20%; }	 
+ }

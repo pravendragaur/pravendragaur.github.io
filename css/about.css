@@ -1,0 +1,318 @@
+body{
+   background-color:rgb(15,17,29);
+   
+}
+/* Simple dashboard grid CSS */
+
+/* Assign grid instructions to our parent grid container */
+.grid-container {
+  display: grid;
+    grid-template-columns: 2.8em 1fr;
+  grid-template-rows: 30px 1fr 30px;
+
+  grid-template-areas:
+    "sidenav header"
+    "sidenav main"
+    "sidenav footer";
+  height: 100vh;
+}
+
+/* Give every child element its grid name */
+.header {
+  grid-area: header;
+  background-color: rgb(15,17,29);
+}
+
+.sidenav {
+
+  grid-area: sidenav;
+  background-color: rgb(15,17,29);
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(15,17,29);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(15,17,29);
+}
+
+/* header items */
+
+p.hdr {
+    width:auto;
+    margin:auto;
+    float:right;
+    color  : white;
+	display inline-block;
+	padding :10px;
+   
+}
+
+/* Nav menue   */
+
+.s-sidebar__nav {
+    position: fixed;
+    top: 0;
+    left: 0em;
+    overflow: hidden;
+    transition: all .3s ease-in;
+    width: 2.8em;
+    height: 100%;
+    background: rgb(24,27,46);
+    color: rgb(255, 255, 255);
+ } 
+
+.s-sidebar__nav ul {
+    
+    position: absolute;
+    top: 2em;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 10em;
+ }
+ 
+ .s-sidebar__nav-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 3em;
+ }
+ 
+ .s-sidebar__nav-link i {
+     color:white;
+ }
+ 
+ .s-sidebar__nav-link em {
+	
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 3em;
+    transform: translateY(-50%);
+ }
+
+.s-sidebar__nav-link:hover {
+	
+    background: rgb(157,25,105);
+ }
+ 
+  .s-sidebar__nav-link > i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+ }
+ .s-sidebar__nav-link > i::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+/* Main Dashboard items */
+
+.container{
+	padding:10px;
+    display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	flex-direction: row;
+
+    
+ }
+ h3{
+	color: white;
+  }   
+.card {
+    
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+    width: 90%;
+   /* height:60%; */
+   border-radius: 25px 5px 25px 5px;
+   background-color: rgb(24,27,46);
+   display:inline-block;
+   text-align:justify;
+   opacity:0.8;
+   padding: 10px;
+   color: rgb(182 185 192);
+
+}
+
+.card:hover {
+  transform:scale(1.02);
+   box-shadow: 0 60px 100px 0 rgba(0,0,0,0.2)
+}
+
+.skillbar{
+  width: 90%; 
+  
+   border-radius: 25px 5px 25px 5px;
+   background-color: rgb(24,27,46);
+   color: rgb(182 185 192);
+   opacity:0.8;
+   padding: 10px;
+}
+
+.skillbar:hover {
+  transform:scale(1.02);
+   box-shadow: 0 60px 100px 0 rgba(0,0,0,0.2)
+}
+
+.db1 p:nth-child(2){
+	float:right;
+	position:relative;
+	top:-50px;
+	
+}
+
+#sql{
+	width:15%;
+}
+#no-sql{
+	width:30%;
+}
+#plsql{
+	width:30%;
+}
+#html{
+		width:20%;
+}
+#css{
+		width:25%;
+}
+#javascript{
+	width:30%;
+}
+.skill-level{
+		box-sizing: border-box;
+		background-color: rgb(35,38,55);
+		border-radius:5px;		
+}
+
+.skill-level:hover {
+  transform:scale(1.02);
+   box-shadow: 0 60px 100px 0 rgba(0,0,0,0.2)
+}
+.sql{
+	background-color:rgb(93 120 255);
+	width:85%;
+	border-radius:5px;
+	height:10px;
+}
+.no-sql{
+	background-color:rgb(18 170 80);
+	width:70%;
+	border-radius:5px;
+	height:10px;
+}
+
+.plsql{
+	background-color:rgb(244 0 2);
+	width:70%;
+	border-radius:5px;
+	height:10px;
+}
+.html{
+	background-color:rgb(255 81 96);
+	width:80%;
+	border-radius:5px;
+	height:10px;
+}
+.css{
+	background-color:rgb(254 198 1);
+	width:75%;
+	border-radius:5px;
+	height:10px;
+}
+.javascript{
+	background-color:rgb(47 219 184);
+	width:70%;
+	border-radius:5px;
+	height:10px;
+}
+/* footer items */
+
+.ftr {
+    width:auto;
+    margin:auto;
+    float:right;
+    color  : white;
+	display inline-block;
+	padding :5px;
+   
+}
+
+.database{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+    width: 90%;
+   /* height:60%; */
+   border-radius: 25px 5px 25px 5px;
+    background-color: rgb(24,27,46); 
+   display:inline-block;
+   text-align:justify;
+   opacity:0.8;
+   padding: 10px;
+   color: rgb(182 185 192);
+
+}
+
+.charts{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+    width: 90%;
+   /* height:60%; */
+   border-radius: 25px 5px 25px 5px;
+  background-color: rgb(24,27,46); 
+   display:inline-block;
+   text-align:justify;
+   opacity:0.8;
+   padding: 10px;
+   color: rgb(182 185 192);
+
+}
+
+.ppm{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+    width: 90%;
+   /* height:60%; */
+   border-radius: 25px 5px 25px 5px;
+    background-color: rgb(24,27,46); 
+   display:inline-block;
+   text-align:justify;
+   opacity:0.8;
+   padding: 10px;
+   color: rgb(182 185 192);
+
+}
+
+.database:hover, .charts:hover,.ppm:hover {
+  transform:scale(1.02);
+   box-shadow: 0 60px 100px 0 rgba(0,0,0,0.2)
+}
+
+/* Mobile CSS */
+
+ @media (min-width: 42em) {
+ 
+	.grid-container {
+				 grid-template-columns: 10em 1fr;		
+	}
+	 .s-sidebar__nav { 
+		 width: 10em;
+		 }
+		 
+	.card{ width:30%;}
+	.skillbar{ width:60%;}
+	.database{ width:30%;}
+	.charts{ width:30%;}
+	.ppm{ width:30%;}
+ }
