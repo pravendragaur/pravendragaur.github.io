@@ -194,7 +194,7 @@ body{
      
             width: 10em;
          }
-          
+          #particles-js { height : 100%;}
       .card{ width:20%; }	 
       .s-sidebar__nav-link:hover {
      
