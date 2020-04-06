@@ -8,7 +8,7 @@ body{
  .grid-container {
    display: grid;
      grid-template-columns: 2.8em 1fr;
-   grid-template-rows: 50px 1fr 10px;
+   grid-template-rows: 30px 1fr 10px;
  
    grid-template-areas:
      "sidenav header"
