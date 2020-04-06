@@ -96,7 +96,7 @@ body{
   }
  
  .s-sidebar__nav-link:hover {
-     
+  width: 2.8em;
      background: rgb(157,25,105);
   }
   
@@ -165,15 +165,18 @@ body{
  }
  
  .card .btn {
-     background-color: #1f88f8;
-     padding : 10px;
+   padding: 10px 15px;
+  border-radius: 15px;
+     background-color: #4834d4;
+     background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
      color : white;
-     width: 100px;
-     border-radius:5px;
+    
  }
  
  .card .btn:hover {
- background-color: black;
+ background-color: #2EE59D;
+ box-shadow: 0px 15px 20px rgb(38, 52, 235);
+ transform: translateY(5px);
  
  }
  /* Mobile CSS */
@@ -186,6 +189,10 @@ body{
       .s-sidebar__nav { 
           width: 10em;
           }
+          .s-sidebar__nav-link:hover {
+     
+            width: 10em;
+         }
           
       .card{ width:20%; }	 
  }
