@@ -8,7 +8,7 @@ body{
 .grid-container {
   display: grid;
     grid-template-columns: 2.8em 1fr;
-  grid-template-rows: 30px 1fr 30px;
+  grid-template-rows: 50px 1fr 30px;
 
   grid-template-areas:
     "sidenav header"
@@ -96,7 +96,7 @@ p.hdr {
  }
 
 .s-sidebar__nav-link:hover {
-	
+	 width: 2.8em;
     background: rgb(157,25,105);
  }
  
