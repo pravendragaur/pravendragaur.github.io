@@ -309,7 +309,11 @@ p.hdr {
 	 .s-sidebar__nav { 
 		 width: 10em;
 		 }
-		 
+     
+     .s-sidebar__nav-link:hover {
+     
+      width: 10em;
+   }
 	.card{ width:30%;}
 	.skillbar{ width:60%;}
 	.database{ width:30%;}
