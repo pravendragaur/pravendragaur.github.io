@@ -42,13 +42,13 @@ body{
 /* header items */
 
 p.hdr {
-    width:auto;
-    margin:auto;
-    float:right;
-    color  : white;
-	display inline-block;
-	padding :10px;
-   
+  width:auto;
+  margin:auto;
+  float:right;
+  color  : white;
+  display :flex;
+  padding :5px;
+ 
 }
 
 /* Nav menue   */
