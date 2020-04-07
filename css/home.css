@@ -8,7 +8,7 @@ body{
  .grid-container {
    display: grid;
      grid-template-columns: 2.8em 1fr;
-   grid-template-rows: 30px 1fr 10px;
+   grid-template-rows: 60px 1fr 10px;
  
    grid-template-areas:
      "sidenav header"
@@ -129,7 +129,7 @@ body{
  }
  
  #particles-js {
-     height : 200%;
+     height : 100%;
      background-color: #000c18;
      color :white;
      float : center;
@@ -185,7 +185,8 @@ body{
   @media (min-width: 42em) {
   
      .grid-container {
-                  grid-template-columns: 10em 1fr;		
+                  grid-template-columns: 10em 1fr;	
+                  grid-template-rows: 30px 1fr 10px;	
      }
       .s-sidebar__nav { 
           width: 10em;
