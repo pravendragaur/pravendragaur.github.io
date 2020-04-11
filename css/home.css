@@ -1,58 +1,58 @@
+*{
+margin:0;
+overflow:hidden;
+}
+
 body{
-    background-color:#000c18;
-    
- }
- /* Simple dashboard grid CSS */
- 
- /* Assign grid instructions to our parent grid container */
- .grid-container {
-   display: grid;
-     grid-template-columns: 2.8em 1fr;
-   grid-template-rows: 60px 1fr 10px;
- 
+display: grid;
+grid-template-columns: 2.8em 1fr;
+   grid-template-rows: 3em; auto 30px;
    grid-template-areas:
      "sidenav header"
      "sidenav main"
      "sidenav footer";
-   height: 100%;
- }
+   height: 100vh;
+
+}
+
+.header{
  
- /* Give every child element its grid name */
- .header {
-   grid-area: header;
-   background-color: #000c18;
- }
- 
- .sidenav {
- 
-   grid-area: sidenav;
-   background-color: #000c18;
- }
- 
- .main {
-   grid-area: main;
-   background-color: #000c18;
- }
- 
- .footer {
-   grid-area: footer;
-   background-color: #000c18;
- }
- 
- /* header items */
- 
- p.hdr {
-     width:auto;
-     margin:auto;
-     float:right;
-     color  : white;
-     display :flex;
-	 flex-shrink: 1;
-     padding :5px;
-    
- }
- 
- /* Nav menue   */
+ background: rgb(24,27,46);
+grid-area: header;
+display:inline-block;
+
+}
+
+.aside{
+grid-area: sidenav;
+z-index:1;
+}
+.main{
+
+background-color:#000c18;
+
+grid-area: main;
+}
+
+.footer{
+text-align:right;
+padding:5px;
+display:block;
+background-color:#000c18;
+color: #696969;
+grid-area: footer;
+}
+.header a {
+text-decoration:none;
+font-size:13px;
+font-weight:bold;
+font-family:geogia;
+color:white;
+float:right;
+padding:15px 5px 15px 5px;
+}
+
+/* Nav menue   */
  
  .s-sidebar__nav {
      position: fixed;
@@ -65,11 +65,15 @@ body{
      background: rgb(24,27,46);
      color: rgb(255, 255, 255);
   } 
+  .s-sidebar__nav:hover{
+  width:10em;
+  transition:all .3s ease;
+  }
  
  .s-sidebar__nav ul {
      
      position: absolute;
-     top: 2em;
+     
      left: 0;
      margin: 0;
      padding: 0;
@@ -97,8 +101,8 @@ body{
   }
  
  .s-sidebar__nav-link:hover {
-  width: 2.8em;
-     background: rgb(157,25,105);
+  width: 10em;
+   background: rgb(42,93,255);
   }
   
    .s-sidebar__nav-link > i {
@@ -115,28 +119,14 @@ body{
      left: 50%;
      transform: translate(-50%, -50%);
   }
- 
- /* footer items */
- 
- .ftr {
-     width:auto;
-     margin:auto;
-     float:right;
-     color  : white;
-     display inline-block;
-     padding :5px;
-    
- }
- 
- #particles-js {
-     height : 100%;
-     background-color: #000c18;
-     color :white;
-     float : center;
- }
- 
- 
- .card {
+
+
+#particles-js{
+height:90vh;
+overflow:hidden;
+}
+
+.card {
      
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
      transition: 0.3s;
@@ -150,6 +140,7 @@ body{
      text-align:center;
      opacity:0.8;
      padding-bottom: 20px;
+	 
  }
  
  .card:hover {
@@ -160,45 +151,26 @@ body{
      
      border-radius: 50%;
  }
- .container {
- padding: 2px 16px;
  
- }
  
  .card .btn {
    padding: 10px 15px;
+   border:none;
   border-radius: 15px;
-     background-color: #4834d4;
-     background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+     background-color:rgb(251,35,72);
      color : white;
     
  }
  
  .card .btn:hover {
- background-color: #2EE59D;
- box-shadow: 0px 15px 20px rgb(38, 52, 235);
- transform: translateY(5px);
+ background-color:rgb(42,93,255);
+ box-shadow: 0px 15px 20px rgb(42,93,255);
+ transform: translateY(-1px);
  
  }
- /* Mobile CSS */
+  /* Mobile CSS */
  
-  @media (min-width: 42em) {
-  
-     .grid-container {
-                  grid-template-columns: 10em 1fr;	
-                  grid-template-rows: 30px 1fr 10px;	
-     }
-      .s-sidebar__nav { 
-          width: 10em;
-          }
-          .s-sidebar__nav-link:hover {
-     
-            width: 10em;
-         }
-          #particles-js { height : 100%;}
-      .card{ width:20%; }	 
-      .s-sidebar__nav-link:hover {
-     
-        width: 10em;
-     }
- }
+  @media (min-width: 42em){
+  .card{ width:20%; }	
+  }
+
