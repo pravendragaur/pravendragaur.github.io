@@ -12,7 +12,7 @@ grid-template-columns: 2.8em 1fr;
      "sidenav main"
      "sidenav footer";
    height: 100vh;
-
+ background: rgb(24,27,46)
 }
 
 .header{
@@ -171,6 +171,12 @@ overflow:hidden;
   /* Mobile CSS */
  
   @media (min-width: 42em){
+	  body{
+grid-template-columns: 10em 1fr;
+	  }
+	  .s-sidebar__nav {
+		  width:10em;
+	  }
   .card{ width:20%; }	
   }
 
