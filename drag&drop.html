@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drag and drop | projects </title>
+        <link rel="icon" href="image/favicon.ico">
+<link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="navbar">
+        <h1 class="heading"> Drag & Drop</h1>
+        </div>
+
+        <div class="container">
+        <div class="main_container">
+
+        <div class="to_do_container">
+                <h2>To Do </h2>
+                <div class="to_do_list" id="to_do_list" ondrop="drop(event)" ondragover="dragover(event)">
+                    <p class="list_item" id="Ideation" ondragstart="drag(event)" draggable="true" >Ideation</p>
+                    <p class="list_item" id="Measure" ondragstart="drag(event)" draggable="true" >Measure</p>
+                    <p class="list_item" id="Analysis" ondragstart="drag(event)" draggable="true" >Analysis</p>
+                </div>
+        </div>
+                
+        <div class="in_progress_container">
+            <h2>In Progress </h2>
+            <div class="doing_list" id="doing_list"  ondrop="drop(event)" ondragover="dragover(event)">
+                <p class="list_item" id="Interview" ondragstart="drag(event)" draggable="true" >Interview</p>
+                <p class="list_item" id="Research" ondragstart="drag(event)" draggable="true" >Research</p>
+                <p class="list_item" id="Sketches" ondragstart="drag(event)" draggable="true" >Sketches</p>
+            </div>
+        </div>
+                
+        <div class="complete_container">
+                        <h2>Complete </h2>
+            <div class="done_list" id="done_list"   ondrop="drop(event)" ondragover="dragover(event)">
+                <p class="list_item" id="Prototype" ondragstart="drag(event)" draggable="true" >Prototype</p>
+                <p class="list_item" id="User_Testing" ondragstart="drag(event)" draggable="true" >User Testing</p>
+                <p class="list_item" id="Card_Sorting" ondragstart="drag(event)" draggable="true" >Card Sorting</p>
+            </div>
+        </div>    
+            </div>
+            </div>
+
+            
+    </body>
+    </html>
+<script src="index.js"></script>
