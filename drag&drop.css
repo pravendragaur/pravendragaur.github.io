@@ -1,0 +1,26 @@
+*{margin:0px;padding: 0px;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;}
+.navbar{width:100%;height:60px;background-color: #15233b;padding: 10px 20px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);z-index: 2;}
+
+    .heading{color:#ffffff;margin-left: 40px;}
+
+    .container{width:100%;height:596px;padding:20px 40px;display: flex;
+        justify-content: center;align-items: center;}
+
+    .main_container{width:100%;height:auto; display: flex;justify-content: center;align-items: flex-start;}
+
+    .to_do_container,.in_progress_container,.complete_container{width:auto;height:auto;
+        background-color: #f1faee;
+        margin:5px 8px;box-shadow:  0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);;}
+
+        .to_do_container > h2{background-color: #00ccf5;user-select: none;}
+        .in_progress_container > h2{background-color: #f50076;user-select: none;}
+        .complete_container > h2{background-color: #cc00ff;user-select: none;}
+
+        .to_do_container > h2,.in_progress_container > h2,.complete_container > h2{width:100%;height:auto;padding:12px 18px;
+            text-align:center;
+            font-family: monospace;
+        }
+        .to_do_list , .doing_list , .done_list{list-style-type: none;min-height:40px;}
+        .list_item {text-align: center;background-color: rgb(255, 255, 255);margin:4px;min-height: 37px;
+        padding:10px 12px;font-size: 1.1vw;cursor:move;}
