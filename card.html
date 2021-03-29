@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href=""/>
+    <link rel="stylesheet" href="board2.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="board">
+    <table class="board_struct">
+        <tr>
+            <th rowspan="2">Ready</th>
+            <th colspan="2" class="header_design">
+                Design                
+            </th>
+            <th colspan="2" class="header_development">
+                Development
+            </th>
+            <th rowspan="2">Test</th>
+            <th rowspan="2">Deployed</th>
+    
+        </tr>
+        <tr>
+            <th class="header_design_doing">Doing</th>
+            <th class="header_design_done">Done</th>
+            <th class="header_development_doing">Doing</th>
+            <th class="header_development_done">Done</th>
+            
+        </tr>
+        <tr>
+        <th class="header_expedite">Expedite</th>
+        <th class="expedite_design_doing"></th>
+        <th class="expedite_design_done"></th>
+        <th class="expedite_development_doing"></th>
+        <th  class="expedite_development_done"></th>
+        <th></th>
+        <td rowspan="2" class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)">
+            
+                <div class="card" id="1" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                    <div class="card_header">
+        
+                        <p class="card_header_text">
+                            S1 <span style="font-size: 10px;">(Test)</span> 
+                            <span style="float: right;">Subs:11</span>
+                        </p>
+                    
+                    </div>
+            
+                    <div class="card_design">
+                        <div class="card_design_heading">Design</div>
+                        <div class="card_design_radio">
+            
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+            
+                        </div>
+                    </div>
+            
+                    <div class="card_dev">
+                        <div class="card_dev_heading">Dev</div>
+                        <div class="card_dev_radio">
+            
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+            
+                        </div>
+                    </div>
+                    <div class="card_test">
+                        <div class="card_test_heading">Test</div>
+                        <div class="card_test_radio">
+            
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+                            <input id="radio_button" type="radio"/>
+            
+                        </div>
+                    </div>
+                
+                    <div class="card_footer">
+                        
+                        <div class="card_day_deployed">
+                            <div class="day_deployed_text">Day Deployed</div>
+                            <div class="day_deployed_textbox">
+                                <input type="textbox"/>
+                            </div>
+                           
+                        </div>
+                        <div class="card_plus_symbol"> - </div>
+                        <div class="card_day_ready">
+                            
+                            <div class="day_ready_text">Day Ready</div>
+                            <div class="day_ready_textbox">
+                                <input type="textbox" />
+                            </div>
+                           
+            
+                        </div>
+                        <div class="card_equal_symbol"> = </div>
+                        <div class="card_cycle_time">
+                            
+                            <div class="cycle_time_text">Cycle Time</div>
+                            <div class="cycle_time_textbox">
+                                <p class="cycle_time_value"></p>
+                            </div>
+                           
+            
+                        </div>
+            
+                    </div>
+                
+                </div>
+            
+        </td>   
+        </tr>
+        
+        <tr>
+        
+          <td class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)">
+             
+            <div class="card" id="2" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S12 <span style="font-size: 10px;">(Ready)</span> 
+                <span style="float: right;">Subs:10</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+            <div class="card" id="8" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S13 <span style="font-size: 10px;">(Ready)</span> 
+                <span style="float: right;">Subs:10</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+            <div class="card" id="13" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S14 <span style="font-size: 10px;">(Ready)</span> 
+                <span style="float: right;">Subs:10</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+            <div class="card" id="16" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S15 <span style="font-size: 10px;">(Ready)</span> 
+                <span style="float: right;">Subs:3</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+        </td>
+        
+        <td  class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)" style="border-right: 1px dashed var(--black);">
+            
+            <div class="card" id="3" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+                    <p class="card_header_text">
+                        S10 <span style="font-size: 10px;">(Design Doing)</span> 
+                        <span style="float: right;">Subs:11</span>
+                    </p>
+                
+                </div>
+        
+                <div class="card_design">
+                    <div class="card_design_heading">Design</div>
+                    <div class="card_design_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+        
+                <div class="card_dev">
+                    <div class="card_dev_heading">Dev</div>
+                    <div class="card_dev_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+                <div class="card_test">
+                    <div class="card_test_heading">Test</div>
+                    <div class="card_test_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+            
+                <div class="card_footer">
+                    
+                    <div class="card_day_deployed">
+                        <div class="day_deployed_text">Day Deployed</div>
+                        <div class="day_deployed_textbox">
+                            <input type="textbox"/>
+                        </div>
+                       
+                    </div>
+                    <div class="card_plus_symbol"> - </div>
+                    <div class="card_day_ready">
+                        
+                        <div class="day_ready_text">Day Ready</div>
+                        <div class="day_ready_textbox">
+                            <input type="textbox" />
+                        </div>
+                       
+        
+                    </div>
+                    <div class="card_equal_symbol"> = </div>
+                    <div class="card_cycle_time">
+                        
+                        <div class="cycle_time_text">Cycle Time</div>
+                        <div class="cycle_time_textbox">
+                            <p class="cycle_time_value"></p>
+                        </div>
+                       
+        
+                    </div>
+        
+                </div>
+            
+            </div>
+            <div class="card" id="9" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S11 <span style="font-size: 10px;">(Ready)</span> 
+                <span style="float: right;">Subs:13</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+        </td>
+          <td class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)" style="border-left: 1px dashed var(--black);">
+
+            <div class="card" id="4" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+                    <p class="card_header_text">
+                        S9 <span style="font-size: 10px;">(Design Doing)</span> 
+                        <span style="float: right;">Subs:12</span>
+                    </p>
+                
+                </div>
+        
+                <div class="card_design">
+                    <div class="card_design_heading">Design</div>
+                    <div class="card_design_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+        
+                <div class="card_dev">
+                    <div class="card_dev_heading">Dev</div>
+                    <div class="card_dev_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+                <div class="card_test">
+                    <div class="card_test_heading">Test</div>
+                    <div class="card_test_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+            
+                <div class="card_footer">
+                    
+                    <div class="card_day_deployed">
+                        <div class="day_deployed_text">Day Deployed</div>
+                        <div class="day_deployed_textbox">
+                            <input type="textbox"/>
+                        </div>
+                       
+                    </div>
+                    <div class="card_plus_symbol"> - </div>
+                    <div class="card_day_ready">
+                        
+                        <div class="day_ready_text">Day Ready</div>
+                        <div class="day_ready_textbox">
+                            <input type="textbox" />
+                        </div>
+                       
+        
+                    </div>
+                    <div class="card_equal_symbol"> = </div>
+                    <div class="card_cycle_time">
+                        
+                        <div class="cycle_time_text">Cycle Time</div>
+                        <div class="cycle_time_textbox">
+                            <p class="cycle_time_value"></p>
+                        </div>
+                       
+        
+                    </div>
+        
+                </div>
+
+            </div>
+
+        </td>
+
+          <td  class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)" style="border-right: 1px dashed var(--black);">
+            <div class="card" id="5" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+                    <p class="card_header_text">
+                        S7 <span style="font-size: 10px;">(Dev Doing)</span> 
+                        <span style="float: right;">Subs:12</span>
+                    </p>
+                
+                </div>
+        
+                <div class="card_design">
+                    <div class="card_design_heading">Design</div>
+                    <div class="card_design_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+        
+                <div class="card_dev">
+                    <div class="card_dev_heading">Dev</div>
+                    <div class="card_dev_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+                <div class="card_test">
+                    <div class="card_test_heading">Test</div>
+                    <div class="card_test_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+            
+                <div class="card_footer">
+                    
+                    <div class="card_day_deployed">
+                        <div class="day_deployed_text">Day Deployed</div>
+                        <div class="day_deployed_textbox">
+                            <input type="textbox"/>
+                        </div>
+                       
+                    </div>
+                    <div class="card_plus_symbol"> - </div>
+                    <div class="card_day_ready">
+                        
+                        <div class="day_ready_text">Day Ready</div>
+                        <div class="day_ready_textbox">
+                            <input type="textbox" />
+                        </div>
+                       
+        
+                    </div>
+                    <div class="card_equal_symbol"> = </div>
+                    <div class="card_cycle_time">
+                        
+                        <div class="cycle_time_text">Cycle Time</div>
+                        <div class="cycle_time_textbox">
+                            <p class="cycle_time_value"></p>
+                        </div>
+                       
+        
+                    </div>
+        
+                </div>
+            
+            </div>
+            <div class="card" id="10" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text" style="background-color: var(--lightgreen);font-size: 23px;display: flex;align-items: center;">
+                I1 <span style="font-size: 8.5px;display: flex;flex-direction: column;">
+                    <span style="font-size: 8.5px;">Database Upgrade</span>
+                    <span>(Key Doing)</span>
+                </span> 
+                
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer"  style="background-color: var(--lightgreen);">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+            <div class="card" id="14" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S8 <span style="font-size: 10px;">(Design Done)</span> 
+                <span style="float: right;">Subs:10</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+        </td>
+          <td class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)"  style="border-left: 1px dashed var(--black);">
+            <div class="card" id="6" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+                    <p class="card_header_text">
+                        S5 <span style="font-size: 10px;">(Dev Done)</span> 
+                        <span style="float: right;">Subs:13</span>
+                    </p>
+                
+                </div>
+        
+                <div class="card_design">
+                    <div class="card_design_heading">Design</div>
+                    <div class="card_design_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+        
+                <div class="card_dev">
+                    <div class="card_dev_heading">Dev</div>
+                    <div class="card_dev_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+                <div class="card_test">
+                    <div class="card_test_heading">Test</div>
+                    <div class="card_test_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+            
+                <div class="card_footer">
+                    
+                    <div class="card_day_deployed">
+                        <div class="day_deployed_text">Day Deployed</div>
+                        <div class="day_deployed_textbox">
+                            <input type="textbox"/>
+                        </div>
+                       
+                    </div>
+                    <div class="card_plus_symbol"> - </div>
+                    <div class="card_day_ready">
+                        
+                        <div class="day_ready_text">Day Ready</div>
+                        <div class="day_ready_textbox">
+                            <input type="textbox" />
+                        </div>
+                       
+        
+                    </div>
+                    <div class="card_equal_symbol"> = </div>
+                    <div class="card_cycle_time">
+                        
+                        <div class="cycle_time_text">Cycle Time</div>
+                        <div class="cycle_time_textbox">
+                            <p class="cycle_time_value"></p>
+                        </div>
+                       
+        
+                    </div>
+        
+                </div>
+
+            </div>
+            <div class="card" id="11" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S6 <span style="font-size: 10px;">(Dev Done)</span> 
+                <span style="float: right;">Subs:11</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+    </td>
+          <td class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)">
+            <div class="card" id="7" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+                    <p class="card_header_text">
+                        S2 <span style="font-size: 10px;">(Test)</span> 
+                        <span style="float: right;">Subs:12</span>
+                    </p>
+                
+                </div>
+        
+                <div class="card_design">
+                    <div class="card_design_heading">Design</div>
+                    <div class="card_design_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+        
+                <div class="card_dev">
+                    <div class="card_dev_heading">Dev</div>
+                    <div class="card_dev_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+                <div class="card_test">
+                    <div class="card_test_heading">Test</div>
+                    <div class="card_test_radio">
+        
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+                        <input id="radio_button" type="radio"/>
+        
+                    </div>
+                </div>
+            
+                <div class="card_footer">
+                    
+                    <div class="card_day_deployed">
+                        <div class="day_deployed_text">Day Deployed</div>
+                        <div class="day_deployed_textbox">
+                            <input type="textbox"/>
+                        </div>
+                       
+                    </div>
+                    <div class="card_plus_symbol"> - </div>
+                    <div class="card_day_ready">
+                        
+                        <div class="day_ready_text">Day Ready</div>
+                        <div class="day_ready_textbox">
+                            <input type="textbox" />
+                        </div>
+                       
+        
+                    </div>
+                    <div class="card_equal_symbol"> = </div>
+                    <div class="card_cycle_time">
+                        
+                        <div class="cycle_time_text">Cycle Time</div>
+                        <div class="cycle_time_textbox">
+                            <p class="cycle_time_value"></p>
+                        </div>
+                       
+        
+                    </div>
+        
+                </div>
+            
+            </div>
+            <div class="card" id="12" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S3 <span style="font-size: 10px;">(Test)</span> 
+                <span style="float: right;">Subs:11</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+            <div class="card" id="15" ondragstart="drag(event)" draggable="true">
+                <div class="card_cover"></div>
+                <div class="card_header">
+        
+            <p class="card_header_text">
+                S4 <span style="font-size: 10px;">(Dev Done)</span> 
+                <span style="float: right;">Subs:10</span>
+            </p>
+        
+        </div>
+
+        <div class="card_design">
+            <div class="card_design_heading">Design</div>
+            <div class="card_design_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+
+        <div class="card_dev">
+            <div class="card_dev_heading">Dev</div>
+            <div class="card_dev_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+        <div class="card_test">
+            <div class="card_test_heading">Test</div>
+            <div class="card_test_radio">
+
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+                <input id="radio_button" type="radio"/>
+
+            </div>
+        </div>
+    
+        <div class="card_footer">
+            
+            <div class="card_day_deployed">
+                <div class="day_deployed_text">Day Deployed</div>
+                <div class="day_deployed_textbox">
+                    <input type="textbox"/>
+                </div>
+               
+            </div>
+            <div class="card_plus_symbol"> - </div>
+            <div class="card_day_ready">
+                
+                <div class="day_ready_text">Day Ready</div>
+                <div class="day_ready_textbox">
+                    <input type="textbox" />
+                </div>
+               
+
+            </div>
+            <div class="card_equal_symbol"> = </div>
+            <div class="card_cycle_time">
+                
+                <div class="cycle_time_text">Cycle Time</div>
+                <div class="cycle_time_textbox">
+                    <p class="cycle_time_value"></p>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+            </div>
+    </td>  
+
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+<script src="board2.js"></script>
