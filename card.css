@@ -17,7 +17,7 @@
     --lightgreen:rgb( 148 255 148 / 100%);
 }
 
-.board_struct{border: 1px solid var(--black);border-collapse:collapse;width:100%;}
+.board_struct{border: 1px solid var(--black);border-collapse:collapse;}
 td,th{border:1px solid var(--black);font-size: 18px;}
 
 .header_design,.header_development,.header_design_doing,.header_design_done,.header_development_doing
@@ -31,9 +31,12 @@ td,th{border:1px solid var(--black);font-size: 18px;}
 {border-right: 1px solid var(--black);}
 .header_expedite{padding: 20px 10px;}
 .expedite_design_done,.expedite_development_done{border-left:1px dashed var(--black);}
-.board_card_area{width:100%;min-width: 217px;height:850px;}
+.board_card_area{height:850px;}
 
-td{vertical-align: top;}
+td,.expedite_design_doing,.expedite_design_done,.expedite_development_doing,.expedite_development_done,
+.expedite_test{vertical-align: top;}
+
+
 
 /* CSS for the CARD .. */
 
