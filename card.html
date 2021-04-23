@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" href=""/>
+    
     <link rel="stylesheet" href="./card.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -31,11 +31,11 @@
         </tr>
         <tr>
         <th class="header_expedite">Expedite</th>
-        <th class="expedite_design_doing"></th>
-        <th class="expedite_design_done"></th>
-        <th class="expedite_development_doing"></th>
-        <th  class="expedite_development_done"></th>
-        <th></th>
+        <th class="expedite_design_doing" ondrop="drop(event)" ondragover="dragover(event)"></th>
+        <th class="expedite_design_done" ondrop="drop(event)" ondragover="dragover(event)"></th>
+        <th class="expedite_development_doing" ondrop="drop(event)" ondragover="dragover(event)"></th>
+        <th  class="expedite_development_done" ondrop="drop(event)" ondragover="dragover(event)"></th>
+        <th class="expedite_test" ondrop="drop(event)" ondragover="dragover(event)"></th>
         <td rowspan="2" class="board_card_area" ondrop="drop(event)" ondragover="dragover(event)">
             
                 <div class="card" id="1" ondragstart="drag(event)" draggable="true">
