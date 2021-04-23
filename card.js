@@ -35,13 +35,20 @@ function drag(event){
 
 var parent = event.target.parentElement.parentElement;
 
-      if(event.target.className == "board_card_area"){          
+      if(event.target.className == "board_card_area" || event.target.className == "expedite_design_doing" ||
+      event.target.className == "expedite_design_done" || event.target.className == "expedite_development_doing" ||
+      event.target.className == "expedite_development_done" || event.target.className == "expedite_test" ){          
+       
         event.target.appendChild(document.getElementById(data))         
-        }
+      
+      }
 
-      if(event.target.className != "board_card_area"){
+      if(event.target.className != "board_card_area" && event.target.className != "expedite_design_doing" &&
+      event.target.className != "expedite_design_done" && event.target.className != "expedite_development_doing" &&
+      event.target.className != "expedite_development_done" && event.target.className != "expedite_test" ){
         
         parent.appendChild(document.getElementById(data));
+      
       }  
        
     }
