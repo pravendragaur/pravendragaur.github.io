@@ -36,6 +36,8 @@ td,th{border:1px solid var(--black);font-size: 18px;}
 td,.expedite_design_doing,.expedite_design_done,.expedite_development_doing,.expedite_development_done,
 .expedite_test{vertical-align: top;}
 
+.expedite_design_doing,.expedite_design_done,.expedite_development_doing,.expedite_development_done,
+.expedite_test{min-height:206px;}
 
 
 /* CSS for the CARD .. */
