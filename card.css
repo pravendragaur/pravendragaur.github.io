@@ -29,7 +29,7 @@ td,th{border:1px solid var(--black);font-size: 18px;}
 {border-right: 1px dashed var(--black);}
 .header_design_done,.header_development_done,.expedite_design_done,.expedite_development_done
 {border-right: 1px solid var(--black);}
-.header_expedite{padding: 91px 10px;}
+.header_expedite{padding: 96px 10px;}
 .expedite_design_done,.expedite_development_done{border-left:1px dashed var(--black);}
 .board_card_area{min-width:217px;height:850px;}
 
